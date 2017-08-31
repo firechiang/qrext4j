@@ -1,8 +1,14 @@
-![输入图片说明](https://git.oschina.net/uploads/images/2017/0808/221921_8d812650_752554.png "codegen_logo.png")
 
-### QrcGen
+ 
 
-一个简单易用的二维码生成器。
+### **QrcGen** 不再维护，改名为 “QRext4j”，关注此项目的OSCer请转移到此。。 
+
+
+本项目为QrcGen改名升级版（旧项目名称是随便起的 :joy: ）。。。
+
+### QRext4j 
+
+一个简单易用的二维码生成器，可以自定义二维码颜色和码眼的样式。
 
  **运行环境：**
 
@@ -12,9 +18,9 @@ JDK_1.8及以上，由于此生成器引用了部分JDK_1.8的特性， 如需�
 
 ```
 <dependency>
-    <groupId>org.iherus</groupId>
-    <artifactId>qrcgen</artifactId>
-    <version>1.2.1</version>
+  <groupId>org.iherus</groupId>
+  <artifactId>qrext4j</artifactId>
+  <version>1.3.0</version>
 </dependency>
 ```
  **QrcGen接口及使用说明：** 
@@ -115,12 +121,11 @@ new SimpleQrcodeGenerator(config).setLogo("F:\\AodaCat-1.png").generate(content)
 
 效果如下：
 
-![输入图片说明](https://git.oschina.net/uploads/images/2017/0821/133121_f40387ca_752554.png "test.png")
-
+![输入图片说明](https://git.oschina.net/uploads/images/2017/0901/012932_e085d9f6_752554.png "AodaCat_custom_eyes.png")
 
  **更多例子请看：** 
 
- https://git.oschina.net/iherus/qrcgen/blob/master/qrcgen/src/test/java/org/iherus/example/TestQrGen.java
+http://git.oschina.net/iherus/qrext4j/blob/master/src/test/java/org/iherus/example/TestQrGen.java
 
  **Features** 
 
