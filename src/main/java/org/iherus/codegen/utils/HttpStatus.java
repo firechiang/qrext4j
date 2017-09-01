@@ -6,6 +6,10 @@ package org.iherus.codegen.utils;
  * Copy from 'org.apache.commons.httpclient.HttpStatus'.
  */
 public class HttpStatus {
+	
+	private HttpStatus() {
+		
+	}
 
 
     // -------------------------------------------------------- Class Variables
